@@ -1,0 +1,15 @@
+# Intermediate / local-only files
+source-prepped.png
+source-photo.jpg
+photoo.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="490" height="252"
+     viewBox="0 0 490 252"
+     role="img" aria-label="raj profile info card">
+  <style>
+    text { dominant-baseline: middle; }
+
+        @keyframes rowIn0 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row0 {
+          animation: rowIn0 0.25s ease-out 0.000s both;
+          animation-fill-mode: forwards;
+        }
+        @keyframes rowIn1 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row1 {
+          animation: rowIn1 0.25s ease-out 0.070s both;
+          animation-fill-mode: forwards;
+        }
+        @keyframes rowIn2 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row2 {
+          animation: rowIn2 0.25s ease-out 0.140s both;
+          animation-fill-mode: forwards;
+        }
+        @keyframes rowIn3 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row3 {
+          animation: rowIn3 0.25s ease-out 0.210s both;
+          animation-fill-mode: forwards;
+        }
+        @keyframes rowIn4 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row4 {
+          animation: rowIn4 0.25s ease-out 0.280s both;
+          animation-fill-mode: forwards;
+        }
+        @keyframes rowIn5 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row5 {
+          animation: rowIn5 0.25s ease-out 0.350s both;
+          animation-fill-mode: forwards;
+        }
+        @keyframes rowIn6 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row6 {
+          animation: rowIn6 0.25s ease-out 0.420s both;
+          animation-fill-mode: forwards;
+        }
+        @keyframes rowIn7 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row7 {
+          animation: rowIn7 0.25s ease-out 0.490s both;
+          animation-fill-mode: forwards;
+        }
+        @keyframes rowIn8 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row8 {
+          animation: rowIn8 0.25s ease-out 0.560s both;
+          animation-fill-mode: forwards;
+        }
+        @keyframes rowIn9 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row9 {
+          animation: rowIn9 0.25s ease-out 0.630s both;
+          animation-fill-mode: forwards;
+        }
+  </style>
+  <rect width="490" height="252"
+        rx="6" ry="6"
+        fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect width="490" height="32"
+        rx="6" ry="6" fill="#161b22"/>
+  <rect y="26" width="490" height="6" fill="#161b22"/>
+  <rect y="32" width="490" height="1" fill="#30363d"/>
+  <circle cx="14" cy="16" r="5" fill="#f78166"/>
+  <circle cx="32" cy="16" r="5" fill="#e3b341"/>
+  <circle cx="50" cy="16" r="5" fill="#3fb950"/>
+  <text x="245" y="16"
+        font-family="'Courier New', Courier, monospace" font-size="12"
+        fill="#c9d1d9" text-anchor="middle">raj@github: ~/info</text>
+  <g class="row0">
+    <text x="16" y="55"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff" font-weight="bold">User</text>
+    <text x="86" y="55"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">:</text>
+    <text x="96" y="55"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#3fb950">raj@github</text>
+  </g>
+  <g class="row1">
+    <text x="16" y="74"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff" font-weight="bold">OS</text>
+    <text x="86" y="74"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">:</text>
+    <text x="96" y="74"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#c9d1d9">B.Arch, IIT Roorkee (2024–2029)</text>
+  </g>
+  <g class="row2">
+    <text x="16" y="93"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff" font-weight="bold">Host</text>
+    <text x="86" y="93"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">:</text>
+    <text x="96" y="93"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#e3b341">Founder &amp; AI Systems Engineer, Synlitics</text>
+  </g>
+  <g class="row3">
+    <text x="16" y="112"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff" font-weight="bold">Now</text>
+    <text x="86" y="112"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">:</text>
+    <text x="96" y="112"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#c9d1d9">GSoC 2026 @ KolibriOS · Building agentic AI systems</text>
+  </g>
+  <g class="row4">
+    <text x="16" y="131"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff" font-weight="bold">Prev</text>
+    <text x="86" y="131"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">:</text>
+    <text x="96" y="131"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#c9d1d9">AI Product Intern, OkCredit Future Founders (ranked 7th/1032)</text>
+  </g>
+  <g class="row5">
+    <text x="16" y="150"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff" font-weight="bold">Stack</text>
+    <text x="86" y="150"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">:</text>
+    <text x="96" y="150"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff">LangGraph · PydanticAI · FastMCP · pgvector · FastAPI · Logfire</text>
+  </g>
+  <g class="row6">
+    <text x="16" y="169"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff" font-weight="bold">Highlights</text>
+    <text x="86" y="169"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">:</text>
+    <text x="96" y="169"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#c9d1d9">Contract Intelligence Engine (LangGraph + pgvector hybrid RAG)</text>
+  </g>
+  <g class="row7">
+    <text x="96" y="188"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">Dependency Drift Sentinel (CVE auditor, CI-gated)</text>
+  </g>
+  <g class="row8">
+    <text x="96" y="207"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">Shadow-Mode AI Deployment Proxy (74% cost ↓ via caching)</text>
+  </g>
+  <g class="row9">
+    <text x="16" y="226"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff" font-weight="bold">Location</text>
+    <text x="86" y="226"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">:</text>
+    <text x="96" y="226"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#c9d1d9">India  (Open to remote)</text>
+  </g>
+</svg>
