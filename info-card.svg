@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="490" height="252"
-     viewBox="0 0 490 252"
+     width="490" height="271"
+     viewBox="0 0 490 271"
      role="img" aria-label="raj profile info card">
   <style>
     text { dominant-baseline: middle; }
@@ -85,8 +85,16 @@
           animation: rowIn9 0.25s ease-out 0.630s both;
           animation-fill-mode: forwards;
         }
+        @keyframes rowIn10 {
+          0%   { opacity: 0; transform: translateX(-12px); }
+          100% { opacity: 1; transform: translateX(0); }
+        }
+        .row10 {
+          animation: rowIn10 0.25s ease-out 0.700s both;
+          animation-fill-mode: forwards;
+        }
   </style>
-  <rect width="490" height="252"
+  <rect width="490" height="271"
         rx="6" ry="6"
         fill="#0d1117" stroke="#30363d" stroke-width="1"/>
   <rect width="490" height="32"
@@ -189,11 +197,22 @@
   <g class="row9">
     <text x="16" y="226"
           font-family="'Courier New', Courier, monospace" font-size="12"
-          fill="#58a6ff" font-weight="bold">Location</text>
+          fill="#58a6ff" font-weight="bold">Contribs</text>
     <text x="86" y="226"
           font-family="'Courier New', Courier, monospace" font-size="12"
           fill="#8b949e">:</text>
     <text x="96" y="226"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff">548 (in the last year)</text>
+  </g>
+  <g class="row10">
+    <text x="16" y="245"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#58a6ff" font-weight="bold">Location</text>
+    <text x="86" y="245"
+          font-family="'Courier New', Courier, monospace" font-size="12"
+          fill="#8b949e">:</text>
+    <text x="96" y="245"
           font-family="'Courier New', Courier, monospace" font-size="12"
           fill="#c9d1d9">India  (Open to remote)</text>
   </g>

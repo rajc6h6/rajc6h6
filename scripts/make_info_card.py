@@ -39,6 +39,17 @@ ROW_GAP     = 0.07   # stagger between rows
 SLIDE_PX    = 12     # pixels to slide from left
 
 # ── Content rows ───────────────────────────────────────────────
+# Load stats to pull contribution count dynamically
+STATS_FILE = pathlib.Path("data/contributions.json")
+total_contribs = 0
+if STATS_FILE.exists():
+    import json
+    try:
+        data = json.loads(STATS_FILE.read_text(encoding="utf-8"))
+        total_contribs = data.get("stats", {}).get("total_contributions", 0)
+    except Exception:
+        pass
+
 # Each entry: (key, value, value_color, is_continuation)
 ROWS = [
     ("User",       "raj@github",                                                   GREEN,   False),
@@ -50,6 +61,7 @@ ROWS = [
     ("Highlights", "Contract Intelligence Engine (LangGraph + pgvector hybrid RAG)", VAL_FG, False),
     ("",           "Dependency Drift Sentinel (CVE auditor, CI-gated)",            DIM_FG,  True),
     ("",           "Shadow-Mode AI Deployment Proxy (74% cost ↓ via caching)",     DIM_FG,  True),
+    ("Contribs",   f"{total_contribs:,} (in the last year)",                       KEY_FG,  False),
     ("Location",   "India  (Open to remote)",                                      VAL_FG,  False),
 ]
 
